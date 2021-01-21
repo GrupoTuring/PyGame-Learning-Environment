@@ -12,7 +12,7 @@ install_requires = [
 
 setup(
 	name='ple',
-	version='0.0.1',
+	version='0.0.2',
 	description='PyGame Learning Environment',
     classifiers=[
         "Intended Audience :: Developers",
@@ -27,7 +27,7 @@ setup(
 	keywords='',
 	license="MIT",
 	packages=find_packages(),
-        include_package_data=False,
+        include_package_data=True,
         zip_safe=False,
         install_requires=install_requires
 )
